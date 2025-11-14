@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Malik — Media Buyer & Growth Marketer</title>
+    <meta name="description" content="Malik — Media buyer & digital marketer. Performance-driven campaigns, creative testing, and scalable ROAS." />
+    <meta property="og:title" content="Malik — Media Buyer & Growth Marketer" />
+    <meta property="og:description" content="Performance-driven media buying, creative testing, and growth marketing." />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#" aria-label="Home">
+          <img src="assets/logo.svg" alt="SM logo" class="logo-img" />
+        </a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Case Studies</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact" class="cta">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Performance media buying that scales ROAS.</h1>
+            <p class="lead">I run high-velocity creative tests and scale winners across paid channels — Facebook, TikTok, YouTube, and programmatic — for e‑commerce and lead gen.</p>
+            <div class="hero-ctas">
+              <a href="#contact" class="btn btn-primary">Work with me</a>
+              <a href="#work" class="btn btn-ghost">See case studies</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="card-stats">
+              <div><strong>+3.8x</strong><span>Avg ROAS (top clients)</span></div>
+              <div><strong>120+</strong><span>Creative tests</span></div>
+              <div><strong>7</strong><span>Figure budgets managed</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+          <div class="container">
+          <h2>About</h2>
+          <p>I’m Malik — a media buyer focused on performance and creative-first testing. I help brands scale profitably through disciplined experimentation, creative optimization, and funnel improvements.</p>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <h2>Services</h2>
+          <div class="grid services-grid">
+            <div class="card service">
+              <h3>Media Buying</h3>
+              <p>Full-funnel paid media across Facebook, TikTok, YouTube and programmatic with ROAS-driven strategies.</p>
+            </div>
+            <div class="card service">
+              <h3>Creative Testing</h3>
+              <p>Rapid creative experiments to discover scalable messaging and ad formats that convert.</p>
+            </div>
+            <div class="card service">
+              <h3>Funnel Optimization</h3>
+              <p>Landing page and funnel improvements to lift CVR and reduce CAC across channels.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="container">
+          <h2>Case Studies</h2>
+          <p class="muted">Selected wins — anonymized KPIs for privacy. Click a card to open details.</p>
+          <div class="grid work-grid">
+            <article class="card work-card" data-case="case-1">
+              <img src="assets/case1.svg" alt="D2C Apparel case study" class="work-thumb" />
+              <h3>Direct-to-Consumer Apparel</h3>
+              <p>3.4x ROAS after creative pivot and scaled budgets.</p>
+            </article>
+            <article class="card work-card" data-case="case-2">
+              <img src="assets/case2.svg" alt="Subscription case study" class="work-thumb" />
+              <h3>Subscription Service</h3>
+              <p>Reduced CAC 28% with funnel tests and audience expansion.</p>
+            </article>
+            <article class="card work-card" data-case="case-3">
+              <img src="assets/case3.svg" alt="B2B lead gen case study" class="work-thumb" />
+              <h3>Lead Gen (B2B)</h3>
+              <p>Scaled qualified leads 4x while maintaining quality thresholds.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="grid testimonial-grid">
+            <div class="card testimonial">
+              <p>“Bilal moved our accounts from break-even to profitable scale in 90 days.”</p>
+              <footer>— Marketing Director, Apparel Brand</footer>
+            </div>
+            <div class="card testimonial">
+              <p>“Creative cadence and testing framework were game changing.”</p>
+              <footer>— Founder, Subscription Startup</footer>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Interested in working together? Tell me about your goals and budgets — I’ll respond within 48 hours.</p>
+          <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden" style="display:none"><label>Don’t fill this out if you are human: <input name="bot-field" /></label></p>
+            <div class="form-grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required />
+              </label>
+              <label class="full">
+                <span>Company / Website</span>
+                <input type="text" name="company" />
+              </label>
+              <label class="full">
+                <span>Message</span>
+                <textarea name="message" rows="6" required></textarea>
+              </label>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send message</button>
+              <span id="form-status" class="muted"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Malik — Media Buyer</div>
+        <div class="social muted">— Portfolio —</div>
+      </div>
+    </footer>
+
+    <div id="case-modal" class="modal" aria-hidden="true">
+      <div class="modal-panel">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <div id="case-content"></div>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
